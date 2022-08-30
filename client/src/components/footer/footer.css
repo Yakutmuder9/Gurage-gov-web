@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    height: auto;
+}
+.footerleft{
+    height: 45vh;
+    background: #172D44;
+}
+.footerleft li{
+    font-weight: 600;
+}
+.footerright{
+    height: 45vh;
+    background: #0A1C2F;
+    
+}
+.formConatainer{
+    height: 40px;
+    overflow: hidden;
+}
+.footerIcon{
+    font-size: 20px;
+}
