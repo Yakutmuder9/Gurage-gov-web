@@ -1,7 +1,6 @@
 .HomeScreen{
     width: 100vw!important;
     height: auto;
-    overflow-y: scroll;
     overflow-x: hidden!important;
 }
 .footertoping{

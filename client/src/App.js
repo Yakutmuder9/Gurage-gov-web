@@ -7,7 +7,7 @@ import HomeScreen from "./screens/homeScreen/HomeScreen";
 const App = () => {
 
   return (
-    <div className="App">
+    <div className="App py-2">
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route path="*" element={<NotFound />} />

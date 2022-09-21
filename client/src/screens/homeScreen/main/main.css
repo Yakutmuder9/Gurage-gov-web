@@ -1,19 +1,11 @@
 .MainScreen{
     width: 100%;
     height: 90vh;
+    overflow-x: hidden!important;
     
 }
-/* .mainbg{
-    background-image: linear-gradient(270deg,rgb(2, 2, 105) 20%,rgba(40, 118, 252, 0)190%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-right: 30vw;
-    z-index: 20;
-} */
-.clipSide{
+ .clipSide{
     background-image: linear-gradient(100deg,#0a1c2f 100%,#0a1c2f 190%);
-    /* background-image: linear-gradient(100deg,rgb(2, 2, 105) 100%,rgba(40, 118, 252, 0)190%); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,13 +16,11 @@
     width: 45vw;
     height: 60vh;
     transform: translate(25%, 0vh);
-    /* position: absolute; */
     z-index: 25;
 
 }
 .ImgSide{
     background-image: linear-gradient(100deg,#0a1c2f 20%,rgba(40, 118, 252, 0.027) 90%),url(../../../assets/gurageGirl.png);
-    /* background-image: linear-gradient(100deg,rgb(2, 2, 105) 20%,rgba(40, 118, 252, 0.027) 90%),url(../../../assets/gurageGirl.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,16 +28,16 @@
 
 }
 .MainScreenList{
+    /* margin-left: 40vw; */
     padding: 0 10vw 0 5vw;
     position: absolute;
     z-index: 99;
     overflow: hidden;
     list-style: none;
+    width: 100vw;
+    height: 50px;
     background: rgba(0, 0, 0, 0.701);
     color: #ffffff;
-}
-.MainScreenList{
-    height: 50px;
 }
 
 .MainScreenList .nav-item{
@@ -59,21 +49,11 @@
 }
 .MainScreenList .nav-item:hover{
     background: rgba(94, 94, 94, 0.779);
+} 
+@media(min-width: 720px){
+    .MainScreenList{
+        clip-path: polygon(0% 0%, 0% 100%,90% 100%,100% 0%);
+        width: 60vw!important;
+        padding-right: 25px;
+    }
 }
-/* .welcometxt{
-    transform: translate(30%, -10%);
-    position: absolute;
-    font-size: 45px;
-}
-.ptext{
-    transform: translate(0%, -22vh);
-    position: absolute;
-    font-size: 18px;
-    color: #ffffff;
-}
-.pdreamtxt {
-    transform: translate(30%, 20vh);
-    position: absolute;
-    font-size: 18px;
-    color: #ffffff;
-} */
